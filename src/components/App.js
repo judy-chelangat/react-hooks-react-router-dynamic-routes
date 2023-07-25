@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <NavBar />
+      <NavBar /> 
       <Switch>
         <Route path="/movies">
           <MoviesPage movies={movies} />
